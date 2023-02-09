@@ -24,6 +24,12 @@ int main()
         }
         prev=next;
     }
+    if(hossz==prev){
+        maxhossz+=hossz;
+    }
+    if(maxhossz>cmaxhossz){
+                    cmaxhossz=maxhossz;
+                }
     cout << cmaxhossz;
     return 0;
 }
